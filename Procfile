@@ -1,1 +1,1 @@
-web : guninicorn main:main
+web : guninicorn main:app
