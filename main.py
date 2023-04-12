@@ -26,7 +26,7 @@ def calculator():
         elif weekday > 5 and num_of_ppl > 1:
             result=calc.weekend_bands(num_of_ppl, start, finish)
         if result:
-            hourly = result / (finish-start)
+            hourly = result /(finish-start)
             return render_template('index.html', form=form, result=result, hourly=hourly)
     return render_template('index.html', form=form)
 
