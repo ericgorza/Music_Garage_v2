@@ -1,0 +1,92 @@
+/* Set a background color for the body */
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f2f2f2;
+}
+
+/* Style the h1 element */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1.5rem;
+}
+
+/* Style the form labels */
+label {
+    font-size: 1.2em;
+}
+
+/* Add some padding to the form controls */
+.form-control {
+    padding: 0.5rem 0.75rem;
+}
+
+/* Add some margin to the submit button */
+.btn-primary {
+    margin-top: 1rem;
+}
+
+/* Center the form horizontally */
+.form-horizontal {
+    margin: 0 auto;
+}
+
+/* Add a border and some padding to the form */
+.form-group {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.formdiv {
+          font-family: 'Outfit', sans-serif;
+          color: #fff;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          width: 480px;
+          }
+
+.main_title {
+             font-family: 'Montserrat', sans-serif;
+             font-weight: 900;
+             font-size: 60px;
+             padding-top: 100px;
+             color: #fff;
+             }
+
+.text-calc {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            padding-top: 50px;
+            padding-bottom: 30px;}
+
+.text-result {font-family: 'Outfit', sans-serif;
+              font-weight: 600;
+              font-size: 30px;
+              }
+
+.btn {
+      background-color: black;
+      width:100%;
+      font-weight: 600;}
+
+.btn:hover {background-color: green;
+            font-weight: 600;}
+
+.footer {
+         position: absolute;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         text-align: center;
+         font-size: 15px;
+         font-family:'Montserrat', sans-serif;
+         padding-top:50px;}
+
+.text-muted {color:white;}
